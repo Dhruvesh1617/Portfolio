@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
 
 :root{
-    --primary-color:gray;
+    --primary-color:rgb(102, 98, 98);
+    --bisque:rgb(253, 209, 155);
 }
 body{
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
@@ -75,4 +76,21 @@ padding: 0rem 0.5rem;
 }
 .navigation .link-active{
     font-weight: bold;
+}
+/** header **/
+.hero
+{
+    padding: 1rem;
+}
+.hero .hero-img{
+    display: block;
+    margin:auto;
+    max-width: 350px;
+}
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--bisque);
+}
+.hero .hero-heading .heading-invert{
+    color:var(--primary-color);
 }
