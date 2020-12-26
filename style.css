@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
+
+body{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+
+/**Container**/
+.container{
+    padding: left rem 1;
+    padding:right rem 1;
+}
+
+.container-center
+{
+    max-width: 600px;
+    margin:auto;
+}
