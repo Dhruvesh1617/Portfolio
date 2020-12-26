@@ -46,3 +46,33 @@ hr
 {
     margin: 2rem 0rem;
 }
+
+.list-non-bullet{
+    list-style: none;
+}
+.list-inline
+{
+display: inline;
+padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: bisque;
+    padding: 1rem ;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-text{
+    font-size: large;
+    font-weight: bold;
+}
+
+.navigation .link{
+    color: bisque;
+}
+.navigation .navpills{
+    text-align: right;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
