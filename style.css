@@ -89,7 +89,8 @@ padding: 0rem 0.5rem;
 }
 .hero .hero-heading{
     padding-top: 1rem;
-    color: var(--bisque);
+    color: var(--primary-color);
+
 }
 .hero .hero-heading .heading-invert{
     color:var(--primary-color);
