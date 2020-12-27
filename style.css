@@ -6,7 +6,8 @@
     --light-gray:#F3F4F6;
 }
 body{
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   margin: 0px;
 }
 
 /**Container**/
@@ -108,4 +109,18 @@ padding: 0rem 0.5rem;
 
 .ow{
     background-color: var(--light-gray);
+}
+
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color:bisque;
+    border-top-right-radius: 1rem;
+}
+
+.footer .links{
+    color:bisque;
+    text-decoration: none;
 }
