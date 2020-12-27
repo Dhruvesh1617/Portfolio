@@ -2,7 +2,8 @@
 
 :root{
     --primary-color:rgb(102, 98, 98);
-    --bisque:rgb(253, 209, 155);
+    --bisque:rgb(243, 189, 124);
+    --light-gray:#F3F4F6;
 }
 body{
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
@@ -89,9 +90,22 @@ padding: 0rem 0.5rem;
 }
 .hero .hero-heading{
     padding-top: 1rem;
-    color: var(--primary-color);
+    color: var(--bisque);
 
 }
 .hero .hero-heading .heading-invert{
     color:var(--primary-color);
+}
+
+/**sections**/
+.section{
+    padding:2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--light-gray);
 }
