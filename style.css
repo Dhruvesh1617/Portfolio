@@ -65,7 +65,7 @@ padding: 0rem 0.5rem;
 .navigation{
     background-color: var(--primary-color);
     color: bisque;
-    padding: 1rem ;
+    padding: 2rem 1rem;
     border-bottom-left-radius: 1rem;
 }
 .navigation .nav-text{
@@ -118,12 +118,12 @@ padding: 0rem 0.5rem;
 /**footer**/
 .footer{
     background-color: var(--primary-color);
-    padding:2rem 1rem;
+    padding:4rem 1rem;
     text-align: center;
     color:bisque;
     border-top-right-radius: 1rem;
-    list-style:armenian;
     margin-top: 1rem;
+    display: block;
 }
 
 .footer .links{
