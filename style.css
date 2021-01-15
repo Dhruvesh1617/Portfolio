@@ -59,8 +59,9 @@ hr
 .list-inline
 {
 display: inline;
-padding: 1rem 2rem;
+padding: 1rem 5rem;
 position: relative;
+margin: auto;
 }
 
 .navigation{
@@ -119,18 +120,17 @@ position: relative;
 /**footer**/
 .footer{
     background-color: var(--primary-color);
-    padding:4rem 1rem;
+    padding:2rem 1rem;
     text-align: center;
     color:bisque;
     border-top-right-radius: 1rem;
-    margin-top: 1rem;
-    display: block;
+    
 }
 
 .footer .links{
     color:bisque;
     text-decoration: none;
-    padding: 1rem 4rem;
+    padding: 2rem 1rem;
 }
 
 /**space **/
@@ -138,3 +138,4 @@ position: relative;
 .space{
     padding: 0rem 0.5rem;
 }
+
