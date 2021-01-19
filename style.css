@@ -6,7 +6,7 @@
     --light-gray:#F3F4F6;
 }
 body{
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    margin: 0px;
 }
 
@@ -124,7 +124,8 @@ margin: auto;
     text-align: center;
     color:bisque;
     border-top-right-radius: 1rem;
-    
+    display: block;
+    border-top-left-radius: 1rem;
 }
 
 .footer .links{
